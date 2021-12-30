@@ -8,8 +8,8 @@ module.exports = (req, res) => {
   createProxyMiddleware('/api',{
     target,
     changeOrigin: true,
-  })
-  createProxyMiddleware({
+  })(req, res)
+  createProxyMiddleware('/graphql',{
     target,
     changeOrigin: true,
   })(req, res)

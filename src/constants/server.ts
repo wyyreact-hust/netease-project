@@ -6,5 +6,5 @@ export const PORT = 8080
 // export const SERVER = __LOCALHOST__ ? `${LOCAL_ORIGIN}:${PORT}/api` : `${REMOTE_ORIGIN}/api`
 // export const GRAPHQL_SERVER = __LOCALHOST__ ? `${LOCAL_ORIGIN}:${PORT}/graphql` : `${REMOTE_ORIGIN}/graphql`
 
-export const SERVER = `${LOCAL_ORIGIN}/api`
-export const GRAPHQL_SERVER = `${LOCAL_ORIGIN}/graphql`
+export const SERVER = '/api'
+export const GRAPHQL_SERVER = '/graphql'
