@@ -1,0 +1,1 @@
+(self.webpackChunkreact_netease_player=self.webpackChunkreact_netease_player||[]).push([[761],{761:(e,r,a)=>{"use strict";a.r(r),a.d(r,{default:()=>s});var n=a(5893);a(7294);const s=function(){return(0,n.jsx)("div",{children:"Singers"})}}}]);
